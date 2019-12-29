@@ -15,4 +15,6 @@ A face milling G-code macro for the [HIGH-Z S-720/T](https://www.cnc-step.de/cnc
    - Feed rate
  * Facing starts at WCS G54
 
-**NOTE:** When using some more advanced calculations with variables, KINETIC-NC sometimes reports false messages with respect to machine limits, etc. When all inputs are correct, the machine runs the macro correctly as well, despite wrong warnings. Nevertheless, when you get warnings, its at your own risk if you run the code, as there might be programming errors or wrong inputs.
+**NOTE:** When using some more advanced calculations with variables, KINETIC-NC sometimes reports false messages with respect to machine limits, etc. When all inputs are correct, the machine still runs the macro correctly, despite wrong warnings.
+
+**NOTE:** When you get warnings, its at your own risk if you run the code, as there might be programming errors or wrong inputs.
