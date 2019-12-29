@@ -13,4 +13,4 @@ A face milling G-code macro for the [HIGH-Z S-720/T](https://www.cnc-step.de/cnc
    - Lateral step (should be less than tool diameter)
    - Depth of cut
    - Feed rate
- * FAcing starts at WCS G54
+ * Facing starts at WCS G54
