@@ -21,6 +21,7 @@ ASKFLT "Enter LATERAL STEP (mm)" 0=min 100=max
 ASKFLT "Enter DEPTH OF CUT (mm)" 0=min 5=max
 #107=#0
 ASKFLT "Enter FEED RATE (mm/min)" 100=min 2500=max
+#108=#0
 
 #108=1500 (Feed rate mm/min)
 #109=#103+2*#105
@@ -31,6 +32,7 @@ PRINT "MEANDER:  Overall length = ";#109
 PRINT "MEANDER:  Overall width= ";#104+2*#105
 PRINT "MEANDER:  Lateral step= ";#106
 PRINT "MEANDER:  Depth of cut = ";#107
+PRINT "MEANDER:  Feed rate = ";#108
 
 ASKBOOL "MEANDER: For Testing (no Z-Feed) click NO" I=2
 
