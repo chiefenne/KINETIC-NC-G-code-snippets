@@ -10,17 +10,17 @@ G90 (absolut coordinates)
 G94 (Feed in mm/min)
 G53 (Maschine zero)
 
-ASKFLT "Enter LENGTH (mm)" I=min J=max
+ASKFLT "Enter LENGTH (mm)" 0=min 720=max
 #103=#0
-ASKFLT "Enter WIDTH (mm)" I=min J=max
+ASKFLT "Enter WIDTH (mm)" 0=min 420=max
 #104=#0
-ASKFLT "Enter OVERLAP (mm)" I=min J=max
+ASKFLT "Enter OVERLAP (mm)" 0=min 20=max
 #105=#0
-ASKFLT "Enter LATERAL STEP (mm)" I=min J=max
+ASKFLT "Enter LATERAL STEP (mm)" 0=min 100=max
 #106=#0
-ASKFLT "Enter DEPTH OF CUT (mm)" I=min J=max
+ASKFLT "Enter DEPTH OF CUT (mm)" 0=min 5=max
 #107=#0
-ASKFLT "Enter FEED RATE (mm/min)" I=min J=max
+ASKFLT "Enter FEED RATE (mm/min)" 100=min 2500=max
 
 #108=1500 (Feed rate mm/min)
 #109=#103+2*#105
