@@ -5,19 +5,19 @@ Warm up the MECHATRON spindle according to datasheet
 
 PRINT "WARMUP: Start"
 
-PRINT "WARMUP 1/4: Spindle running at 6000"
+PRINT "WARMUP 1/4: Spindle running at 6000, 60 seconds"
 M3 S6000
 G4 H60
 
-PRINT "WARMUP 2/4: Spindle running at 10000"
+PRINT "WARMUP 2/4: Spindle running at 10000, 50 seconds"
 M3 S10000
 G4 H50
 
-PRINT "WARMUP 3/4: Spindle running at 14000"
+PRINT "WARMUP 3/4: Spindle running at 14000, 40 seconds"
 M3 S16000
 G4 H40
 
-PRINT "WARMUP 4/4: Spindle running at 18000"
+PRINT "WARMUP 4/4: Spindle running at 18000, 30 seconds"
 M3 S16000
 G4 H30
 
